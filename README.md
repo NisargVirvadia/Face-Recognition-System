@@ -17,3 +17,11 @@ root_path = "/content/drive/MyDrive/Colab Notebooks/COEN240_TA/data"
 train_path = root_path + "/train"
 grade_path = root_path + "/grade"
 
+
+Summary-
+1)After initial trials with various machine learning algorithms like KNN,SVM,Random Forest resulted in less accuracy, we shifted project towards a deep learning-based approach.
+2)We switched to a deep learning approach.. We managed our data using Pytorch's dataset and dataloader. Then, we combined the VGGFace pre-trained model with an SVM classifier, simplifying feature extraction and training while leveraging existing feature representations
+3)We serialized the trained model with Pickle for easy deployment and consistency across platforms.
+4)GPU acceleration significantly speed up the training, enabling quick iterations and faster model convergence. We developed an API for efficient model inference, handling input data, feature extraction, prediction, and matching with filenames seamlessly for high accuracy throughout the process.
+
+
